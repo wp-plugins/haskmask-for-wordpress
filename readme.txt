@@ -12,7 +12,7 @@ Adding arc90's Hashmask to the login form; a secure way to quickly check you've 
 
 A while ago, arc90 decided that having to submit a form to find out if you've entered the right password was inefficient, so they set about finding a quick and secure way of telling you if the password you've entered is correct. They came up with [Hashmask](http://lab.arc90.com/2009/07/hashmask.php) which does that pretty well.
 
-When you enter your password into the field, you'll be shown a little graphic. Remember that graphic! That's the visual representation of your password. For instance, if I enter my password I see a green shape, with two peaks at the begining. If I type it in, and that's not the graphic I see then I've typed it wrong and know to type it again (without wasting time submitting the page)!
+When you enter your password into the field, you'll be shown a little graphic. Remember that graphic! That's the visual representation of your password. For instance, if I enter my password I see a green shape, with two peaks at the beginning. If I type it in, and that's not the graphic I see then I've typed it wrong and know to type it again (without wasting time submitting the page)!
 
 It's completely secure though. Even if someone sees what shape your password makes, there's nothing that can do to convert that image back to a real word.
 
