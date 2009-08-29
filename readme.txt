@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Hashmask for WordPress ===
 Contributors: shamess
 Donate link: http://www.shamess.info/business/
 Tags: security, login
