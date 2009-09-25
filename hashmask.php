@@ -1,12 +1,4 @@
 <?php
-/**
-Plugin Name: Hashmask for WordPress
-Plugin URI: http://lab.arc90.com/2009/07/hashmask.php
-Description: Adds arc90's hashmask to the admin log in field, and various other password fields
-Author: Shamess
-Version: 1.0
-Author URI: http://shamess.info/business/wordpress/customise.php
-*/
 
 //  Register the scripts we need, and then enqueue them
 function queueScripts () {
