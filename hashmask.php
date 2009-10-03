@@ -1,5 +1,13 @@
 <?php
 
+/*
+Plugin Name: Hashmask for WordPress
+Plugin URI: http://www.shamess.info/business/wordpress/hashmask.php
+Author: Shamess
+Author URI: http://www.shamess.info/business/wordpress/customise.php
+Version: 1.0.1
+*/
+
 //  Register the scripts we need, and then enqueue them
 function queueScripts () {
 	wp_register_script ('sparkline', '/wp-content/plugins/hashmaskforwordpress/jquery.sparkline-1.4.2.js', array( 'jquery' ));
