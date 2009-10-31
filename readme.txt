@@ -4,7 +4,11 @@ Donate link: http://www.shamess.info/business/
 Tags: security, login
 Requires at least: 2.1
 Tested up to: 2.8
+Version: 1.0.1
 Stable tag: trunk
+Plugin URI: http://www.shamess.info/business/wordpress/hashmask.php
+Author: Shamess
+Author URI: http://www.shamess.info/business/wordpress/customise.php
 
 Adding arc90's Hashmask to the login form; a secure way to quickly check you've typed the right password.
 
@@ -34,7 +38,7 @@ Just install the plugin [like you would any other](http://codex.wordpress.org/Ma
 
 = 1.0.1 =
 
-* Minor bug with links
+* Fixed directory bug which stopped the Javascript being located
 
 = 1.0 =
 

@@ -1,18 +1,13 @@
 <?php
 
-/*
-Plugin Name: Hashmask for WordPress
-Plugin URI: http://www.shamess.info/business/wordpress/hashmask.php
-Author: Shamess
-Author URI: http://www.shamess.info/business/wordpress/customise.php
-Version: 1.0.1
-*/
-
 //  Register the scripts we need, and then enqueue them
 function queueScripts () {
-	wp_register_script ('sparkline', '/wp-content/plugins/hashmaskforwordpress/jquery.sparkline-1.4.2.js', array( 'jquery' ));
-	wp_register_script ('jquery-sha1', '/wp-content/plugins/hashmaskforwordpress/jquery.sha1.js', array( 'jquery' ));
-	wp_register_script ('hashmask', '/wp-content/plugins/hashmaskforwordpress/jquery.hashmask.js', array( 'sparkline', 'jquery-sha1' ));
+	$directory = get_bloginfo ('wpurl').'/wp-content/plugins/';
+	$explodedDir = preg_split ('/(\/|\\\)/', substr (__FILE__, 0, -13));
+	$directory .= $explodedDir[count ($explodedDir)-1];
+	wp_register_script ('sparkline', $directory.'/jquery.sparkline-1.4.2.js', array( 'jquery' ));
+	wp_register_script ('jquery-sha1', $directory.'/jquery.sha1.js', array( 'jquery' ));
+	wp_register_script ('hashmask', $directory.'/jquery.hashmask.js', array( 'sparkline', 'jquery-sha1' ));
 	wp_enqueue_script ('hashmask');
 }
 
