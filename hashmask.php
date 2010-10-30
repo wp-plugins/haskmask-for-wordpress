@@ -1,5 +1,14 @@
 <?php
 
+/**
+Plugin Name: Hashmask for WordPress
+Plugin URI: http://wordpress.org/extend/plugins/haskmask-for-wordpress/
+Description: Adds arc90's hashmask to the admin log in field.
+Author: Shamess
+Version: 0.9.1
+Author URI: http://shamess.info/
+*/
+
 //  Register the scripts we need, and then enqueue them
 function queueScripts () {
 	$base_url = WP_PLUGIN_URL.'/'.str_replace (basename ( __FILE__), "" ,plugin_basename(__FILE__));
