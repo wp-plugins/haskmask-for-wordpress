@@ -4,6 +4,7 @@ Donate link: http://www.shamess.info/business/
 Tags: security, login
 Requires at least: 2.1
 Tested up to: 3.0.1
+Version: 0.9.1.1
 Stable tag: trunk
 
 Adding arc90's Hashmask to the login form; a secure way to quickly check you've typed the right password.
@@ -31,6 +32,10 @@ As sure as computationally possible. It uses a one way encryption method called 
 1. Here's the word "password", and the image it generates. You'll get a different shape, and probably a different colour.
 
 == Changelog ==
+
+= 0.9.1.1 =
+
+Merged two out of date files because I'm still learning SVN... Live and learn.
 
 = 0.9.1 =
 Small bug fixes
