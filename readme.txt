@@ -3,12 +3,8 @@ Contributors: shamess
 Donate link: http://www.shamess.info/business/
 Tags: security, login
 Requires at least: 2.1
-Tested up to: 2.8
-Version: 1.0.1
+Tested up to: 3.0.1
 Stable tag: trunk
-Plugin URI: http://www.shamess.info/business/wordpress/hashmask.php
-Author: Shamess
-Author URI: http://www.shamess.info/business/wordpress/customise.php
 
 Adding arc90's Hashmask to the login form; a secure way to quickly check you've typed the right password.
 
@@ -28,22 +24,19 @@ Just install the plugin [like you would any other](http://codex.wordpress.org/Ma
 
 = Are you sure no one can work out my password from that image? =
 
-100% sure. It uses a one way encryption method called [SHA1](http://en.wikipedia.org/wiki/SHA1), which means that once the password is encrypted, it can never be converted back to the original word.
+As sure as computationally possible. It uses a one way encryption method called [SHA1](http://en.wikipedia.org/wiki/SHA1), which means that once the password is encrypted, it can never be converted back to the original word.
 
 == Screenshots ==
 
-1. Here's a random password, and the image it generates. You'll get a different shape, and probably a different colour.
+1. Here's the word "password", and the image it generates. You'll get a different shape, and probably a different colour.
 
 == Changelog ==
 
-= 1.0.1 =
-
-* Fixed directory bug which stopped the Javascript being located
-
-= 1.0 =
-
-* Added Haskmask to the profile and user edit pages, to help make sure you've typed the same password correctly.
-* Updated Plugin links, and other moved meta data from hashmask.php to this file (where it should be)
+= 0.9.1 =
+Small bug fixes
+* You can now call the plugin directory whatever you like, if for some reason you needed change it...
+* Changed the CSS a little so that the image lines up better in the login field
+* Tested up to 3.0.1
 
 = 0.9 =
 Uploaded!

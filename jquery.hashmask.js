@@ -51,7 +51,7 @@
             $sparkline = $('<div id="' + this.id + '-jquery-hashmask-sparkline"></div>');
             $sparkline.css({
                 position:    'absolute',
-                top:         $this.offset().top + parseInt($this.css('borderTopWidth'), 10) + parseInt($this.css('margin-bottom'), 10) + parseInt($this.css('padding-bottom'), 10) + parseInt($this.css('margin-top'), 10) + parseInt($this.css('padding-top'), 10) + 5,
+                top:         $this.offset().top + parseInt($this.css('borderTopWidth'), 10),
                 left:        $this.offset().left + $this.outerWidth() - parseInt($this.css('borderRightWidth'), 10) - parseInt(settings.sparklineOptions.width, 10),
                 width:       settings.sparklineOptions.width,
                 height:      $this.outerHeight()
